@@ -1,0 +1,104 @@
+{
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "phoneNumber",
+      "type": "string"
+    },
+    {
+      "name": "districts",
+      "type": "stringified_map"
+    },
+    {
+      "name": "specialties",
+      "type": "stringified_map"
+    },
+    {
+      "name": "career",
+      "type": "number"
+    },
+    {
+      "name": "minWage",
+      "type": "number"
+    },
+    {
+      "name": "maxWage",
+      "type": "number"
+    },
+    {
+      "name": "description",
+      "type": "string"
+    },
+    {
+      "name": "profileImage",
+      "type": "string"
+    },
+    {
+      "name": "certificateImage",
+      "type": "string"
+    },
+    {
+      "name": "isActive",
+      "type": "boolean"
+    },
+    {
+      "name": "expirationDate",
+      "type": "timestamp"
+    },
+    {
+      "name": "haveUncheckedContracts",
+      "type": "boolean"
+    },
+    {
+      "name": "haveUncheckedOffers",
+      "type": "boolean"
+    },
+    {
+      "name": "registrationToken",
+      "type": "string"
+    },
+    {
+      "name": "createdAt",
+      "type": "timestamp"
+    },
+    {
+      "name": "updatedAt",
+      "type": "timestamp"
+    },
+    {
+      "name": "averageScore",
+      "type": "number"
+    },
+    {
+      "name": "contractCount",
+      "type": "number"
+    },
+    {
+      "name": "favoriterCount",
+      "type": "number"
+    },
+    {
+      "name": "hugeDistricts",
+      "type": "stringified_map"
+    },
+    {
+      "name": "portfolioCount",
+      "type": "number"
+    },
+    {
+      "name": "reviewCount",
+      "type": "number"
+    },
+    {
+      "name": "totalScore",
+      "type": "number"
+    }
+  ]
+}

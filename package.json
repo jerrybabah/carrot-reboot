@@ -1,0 +1,22 @@
+{
+  "name": "@kim-pro-git/carrot-reboot",
+  "version": "1.0.0",
+  "description": "#firebase #monorepo #product",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "backend": "yarn workspace @kim-pro-git/carrot-reboot-backend",
+    "horse-reboot": "yarn workspace @kim-pro-git/horse-reboot",
+    "rabbit-reboot": "yarn workspace @kim-pro-git/rabbit-reboot",
+    "service": "yarn workspace @kim-pro-git/carrot-reboot-service"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-eslint": "~4.5.0"
+  }
+}

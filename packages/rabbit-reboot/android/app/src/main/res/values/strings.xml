@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">김프로 - 구직자용</string>
+  <string name="title_activity_main">김프로 - 구직자용</string>
+  <string name="package_name">com.rabbit.reboot.app</string>
+  <string name="custom_url_scheme">com.rabbit.reboot.app</string>
+  <string name="ionic_app_id">7cc0b5c8</string>
+  <string name="ionic_channel_name">Production</string>
+  <string name="ionic_update_method">none</string>
+  <string name="ionic_max_versions">2</string>
+  <string name="ionic_min_background_duration">30</string>
+  <string name="ionic_update_api">https://api.ionicjs.com</string>
+  <string name="fb_app_id">2007461376086720</string>
+  <string name="fb_app_name">김프로 - 구직자용</string>
+  <bool name="fb_auto_log_app_events_enabled">true</bool>
+  <bool name="fb_advertiser_id_collection_enabled">true</bool>
+</resources>

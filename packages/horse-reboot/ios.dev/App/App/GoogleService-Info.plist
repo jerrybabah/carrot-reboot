@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>941598587816-oed6lr6tbqlrv5e0leqbbh6ksgkqb2fq.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.941598587816-oed6lr6tbqlrv5e0leqbbh6ksgkqb2fq</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAgbX3epaMnNi_Qv_Mc24iGvydESmh0wao</string>
+	<key>GCM_SENDER_ID</key>
+	<string>941598587816</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.horse.reboot.dev.app</string>
+	<key>PROJECT_ID</key>
+	<string>dev---carrot-reboot</string>
+	<key>STORAGE_BUCKET</key>
+	<string>dev---carrot-reboot.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:941598587816:ios:c8b6ac8f88ea51e1f63b9d</string>
+</dict>
+</plist>

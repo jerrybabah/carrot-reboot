@@ -1,0 +1,7 @@
+{
+  "name": "horse-reboot",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}

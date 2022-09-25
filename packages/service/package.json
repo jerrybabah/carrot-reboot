@@ -1,0 +1,27 @@
+{
+  "name": "@kim-pro-git/carrot-reboot-service",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "build": "tsc",
+    "async-node": "node -r ts-node/register/transpile-only --experimental-repl-await repl.js"
+  },
+  "dependencies": {
+    "firebase": "^8.10.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.172",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-plugin-import": "^2.24.0",
+    "firebase-admin": "^9.11.1",
+    "ts-node": "^10.2.0",
+    "typescript": "^4.3.5"
+  }
+}

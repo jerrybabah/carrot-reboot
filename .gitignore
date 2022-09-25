@@ -1,0 +1,32 @@
+.DS_Store
+node_modules
+dist
+lib
+package.lock.json
+.firebase
+*.tsbuildinfo
+dev---carrot-reboot-firebase-adminsdk-qio69-42658eced3.json
+data
+
+# env files
+.env
+.env.*
+
+# Log files
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+firebase-debug.log*
+firebase-debug.*.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

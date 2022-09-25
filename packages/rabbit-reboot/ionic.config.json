@@ -1,0 +1,7 @@
+{
+  "name": "rabbit-reboot",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #4b4b4b;
+      }
+
+      .cls-3 {
+        fill: #1E6AFF;
+      }
+    </style>
+  </defs>
+  <g id="그룹_10631" data-name="그룹 10631" transform="translate(-152 -171)">
+    <circle id="타원_60" data-name="타원 60" class="cls-1" cx="28" cy="28" r="28" transform="translate(152 171)"/>
+    <g id="그룹_10607" data-name="그룹 10607" transform="translate(1)">
+      <path id="패스_268" data-name="패스 268" class="cls-2" d="M425.639,749.857c0-.015,0-.029,0-.044a.523.523,0,0,0-.017-.076c0-.008,0-.016-.005-.024l-4.519-13.1a.527.527,0,0,0-.5-.355H398.628a.527.527,0,0,0-.5.355l-4.519,13.1c0,.008,0,.016-.005.024a.526.526,0,0,0-.016.076c0,.015,0,.029,0,.044s0,.018,0,.028v3.841a.527.527,0,0,0,.527.527h31.006a.527.527,0,0,0,.527-.527v-3.841C425.642,749.875,425.639,749.866,425.639,749.857Zm-1.264-.5h-8.1l-2.77-12.05h6.718Zm-11.956-12.05,2.771,12.05H404.033l2.77-12.05Zm-13.415,0h6.718l-2.77,12.05h-8.1Zm-4.368,13.1h8.208V753.2h-8.208ZM403.9,753.2v-2.786h11.426V753.2Zm20.689,0h-8.208v-2.786h8.208Z" transform="translate(-230.581 -546.253)"/>
+      <g id="그룹_10606" data-name="그룹 10606" transform="translate(163.947 204.075)">
+        <rect id="사각형_4202" data-name="사각형 4202" class="cls-3" width="8.337" height="2.875" transform="translate(0 0)"/>
+        <rect id="사각형_4203" data-name="사각형 4203" class="cls-3" width="11.483" height="2.875" transform="translate(9.309 0)"/>
+        <rect id="사각형_4204" data-name="사각형 4204" class="cls-3" width="8.249" height="2.875" transform="translate(21.851 0)"/>
+      </g>
+    </g>
+  </g>
+</svg>

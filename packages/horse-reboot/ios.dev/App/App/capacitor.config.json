@@ -1,0 +1,37 @@
+{
+	"appId": "com.horse.reboot.dev.app",
+	"appName": "horse reboot",
+	"webDir": "dist",
+	"bundledWebRuntime": false,
+	"android": {
+		"path": "android.dev",
+		"includePlugins": [
+			"@capacitor-community/firebase-analytics",
+			"@capacitor/app",
+			"@capacitor/haptics",
+			"@capacitor/keyboard",
+			"@capacitor/push-notifications",
+			"cordova-plugin-ionic"
+		]
+	},
+	"ios": {
+		"path": "ios.dev",
+		"includePlugins": [
+			"@capacitor-community/firebase-analytics",
+			"@capacitor/app",
+			"@capacitor/haptics",
+			"@capacitor/keyboard",
+			"@capacitor/push-notifications",
+			"cordova-plugin-ionic"
+		]
+	},
+	"plugins": {
+		"PushNotifications": {
+			"presentationOptions": [
+				"badge",
+				"sound",
+				"alert"
+			]
+		}
+	}
+}

@@ -1,0 +1,37 @@
+# <실행조건>
+# - develop 브랜치에 push (develop을 base로 하는 PR을 merge)
+# - rabbit 코드가 바뀜
+
+name: Deploy RABBIT to firebase hosting
+
+on:
+  push:
+    branches:
+      - develop
+    paths:
+      - packages/rabbit-reboot/**
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: download repository contents
+        uses: actions/checkout@v2
+
+      - name: install node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: install dependencies
+        run: yarn
+
+      - name: deploy to firebase hosting
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_DEV___CARROT_REBOOT }}'
+          channelId: live
+          projectId: dev---carrot-reboot
+          target: rabbit

@@ -1,0 +1,20 @@
+{
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "clientId",
+      "type": "string"
+    },
+    {
+      "name": "workerId",
+      "type": "string"
+    },
+    {
+      "name": "createdAt",
+      "type": "timestamp"
+    }
+  ]
+}

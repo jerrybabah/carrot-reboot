@@ -1,0 +1,28 @@
+{
+  "projects": {
+    "develop": "dev---carrot-reboot",
+    "production": "prod---carrot-reboot"
+  },
+  "targets": {
+    "dev---carrot-reboot": {
+      "hosting": {
+        "horse": [
+          "dev---carrot-reboot"
+        ],
+        "rabbit": [
+          "rabbit-reboot-dev"
+        ]
+      }
+    },
+    "prod---carrot-reboot": {
+      "hosting": {
+        "horse": [
+          "prod---carrot-reboot"
+        ],
+        "rabbit": [
+          "rabbit-reboot-prod"
+        ]
+      }
+    }
+  }
+}

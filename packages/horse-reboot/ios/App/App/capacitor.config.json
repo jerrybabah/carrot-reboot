@@ -1,0 +1,15 @@
+{
+	"appId": "com.horse.reboot.app",
+	"appName": "김프로 - 구인자용",
+	"webDir": "dist",
+	"bundledWebRuntime": false,
+	"plugins": {
+		"PushNotifications": {
+			"presentationOptions": [
+				"badge",
+				"sound",
+				"alert"
+			]
+		}
+	}
+}

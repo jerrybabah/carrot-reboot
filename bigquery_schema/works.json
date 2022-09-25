@@ -1,0 +1,90 @@
+{
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "client",
+      "type": "map",
+      "fields": [
+        {
+          "name": "id",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "field",
+      "type": "string"
+    },
+    {
+      "name": "title",
+      "type": "string"
+    },
+    {
+      "name": "startDate",
+      "type": "timestamp"
+    },
+    {
+      "name": "endDate",
+      "type": "timestamp"
+    },
+    {
+      "name": "workStatus",
+      "type": "string"
+    },
+    {
+      "name": "address1",
+      "type": "string"
+    },
+    {
+      "name": "address2",
+      "type": "string"
+    },
+    {
+      "name": "addressDetail",
+      "type": "string"
+    },
+    {
+      "name": "description",
+      "type": "string"
+    },
+    {
+      "name": "images",
+      "type": "stringified_map"
+    },
+    {
+      "name": "totalCost",
+      "type": "number"
+    },
+    {
+      "name": "requiredWorkers",
+      "type": "stringified_map"
+    },
+    {
+      "name": "isContracted",
+      "type": "boolean"
+    },
+    {
+      "name": "contractedAt",
+      "type": "timestamp"
+    },
+    {
+      "name": "haveUncheckedApplicants",
+      "type": "boolean"
+    },
+    {
+      "name": "createdAt",
+      "type": "timestamp"
+    },
+    {
+      "name": "updatedAt",
+      "type": "timestamp"
+    },
+    {
+      "name": "contractCount",
+      "type": "number"
+    }
+  ]
+}

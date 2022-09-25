@@ -1,0 +1,70 @@
+{
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "client",
+      "type": "map",
+      "fields": [
+        {
+          "name": "id",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "work",
+      "type": "map",
+      "fields": [
+        {
+          "name": "id",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "worker",
+      "type": "map",
+      "fields": [
+        {
+          "name": "id",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "isOffered",
+      "type": "boolean"
+    },
+    {
+      "name": "isAccepted",
+      "type": "boolean"
+    },
+    {
+      "name": "isContracted",
+      "type": "boolean"
+    },
+    {
+      "name": "contractedAt",
+      "type": "timestamp"
+    },
+    {
+      "name": "isReviewed",
+      "type": "boolean"
+    },
+    {
+      "name": "haveUnreadChatsByClient",
+      "type": "boolean"
+    },
+    {
+      "name": "haveUnreadChatsByWorker",
+      "type": "boolean"
+    },
+    {
+      "name": "createdAt",
+      "type": "timestamp"
+    }
+  ]
+}

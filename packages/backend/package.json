@@ -1,0 +1,44 @@
+{
+  "name": "@kim-pro-git/carrot-reboot-backend",
+  "version": "1.0.0",
+  "main": "lib/functions/main.js",
+  "license": "MIT",
+  "engines": {
+    "node": "14"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "build": "tsc",
+    "async-node": "node -r ts-node/register/transpile-only --experimental-repl-await repl.js"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@slack/web-api": "^6.5.0",
+    "axios": "^0.21.4",
+    "dayjs": "^1.10.7",
+    "faker": "^5.5.3",
+    "firebase-admin": "^9.11.0",
+    "firebase-functions": "^3.15.4",
+    "http-errors": "^1.8.0",
+    "koa": "^2.13.1",
+    "koa-router": "^10.0.0",
+    "lodash": "^4.17.21",
+    "typesaurus": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/faker": "^5.5.8",
+    "@types/http-errors": "^1.8.1",
+    "@types/koa": "^2.13.4",
+    "@types/koa-router": "^7.4.4",
+    "@types/koa__cors": "^3.0.3",
+    "@types/lodash": "^4.14.172",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-plugin-import": "^2.24.0",
+    "ts-node": "^10.2.0",
+    "typescript": "^4.3.5"
+  }
+}

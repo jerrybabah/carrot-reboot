@@ -1,0 +1,15 @@
+{
+	"appId": "com.rabbit.reboot.app",
+	"appName": "김프로 - 구직자용",
+	"webDir": "dist",
+	"bundledWebRuntime": false,
+	"plugins": {
+		"PushNotifications": {
+			"presentationOptions": [
+				"badge",
+				"sound",
+				"alert"
+			]
+		}
+	}
+}

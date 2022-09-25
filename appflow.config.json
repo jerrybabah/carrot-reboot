@@ -1,0 +1,28 @@
+{
+  "apps": [
+    {
+      "appId": "c6d7d459",
+      "root": "packages/horse-reboot",
+      "dependencyInstallCommand": "cd ../.. && yarn",
+      "webBuildCommand": "cd ../.. && yarn backend build && yarn service build && yarn horse-reboot build:prod"
+    },
+    {
+      "appId": "7cc0b5c8",
+      "root": "packages/rabbit-reboot",
+      "dependencyInstallCommand": "cd ../.. && yarn",
+      "webBuildCommand": "cd ../.. && yarn backend build && yarn service build && yarn rabbit-reboot build:prod"
+    },
+    {
+      "appId": "9adf2bfe",
+      "root": "packages/horse-reboot",
+      "dependencyInstallCommand": "cd ../.. && yarn",
+      "webBuildCommand": "cd ../.. && yarn backend build && yarn service build && yarn horse-reboot build"
+    },
+    {
+      "appId": "40f433a8",
+      "root": "packages/rabbit-reboot",
+      "dependencyInstallCommand": "cd ../.. && yarn",
+      "webBuildCommand": "cd ../.. && yarn backend build && yarn service build && yarn rabbit-reboot build"
+    }
+  ]
+}
